@@ -23,13 +23,18 @@ operação: sum
 n1: 5
 n2: 4
 9
+
+Os resultados serão salvos em 'prefixcalc.log'
 """
 __author__ = "Bruno Chiconato"
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
+import os
 import sys
+from datetime import datetime
 
 valid_input = len(sys.argv)
+file_path = os.path.join(os.curdir, "prefixcalc.log")
 
 if valid_input == 4:
     operation, n1, n2 = sys.argv[1:]
@@ -46,6 +51,7 @@ if valid_input == 4:
         print(f"{n1 / n2}")
     else:
         print(f"'{operation}' não é válido! Tente novamente.")
+        sys.exit(1)
 elif valid_input == 1:
     operation = input("Operação: ")
     operation = operation.strip().lower()
@@ -61,5 +67,13 @@ elif valid_input == 1:
         print(f"{n1 / n2}")
     else:
         print(f"'{operation}' não é válido! Tente novamente.")
+        sys.exit(1)
 else:
     print("Erro")
+    sys.exit(1)
+
+timestamp = datetime.now().isoformat()
+user = os.getenv("USER", "anonymous")
+
+with open(file_path, "a") as file:
+    file.write(f"{timestamp} | {user} | {operation}, {n1}, {n2}\n")

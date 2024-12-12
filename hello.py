@@ -16,7 +16,7 @@ Execução:
     ou
     ./hello.py
 """
-__version__ = "0.1.3"
+__version__ = "0.1.4"
 __author__ = "Bruno Chiconato"
 __license__ = "Unlicense"
 
@@ -37,9 +37,12 @@ msg = {
 }
 
 for arg in sys.argv[1:]:
-    # TODO: Tratar ValueError
+    try:
+        key, value = arg.split("=")
+    except ValueError:
+        print("You need to use '=' after '--lang'")
+        sys.exit(1)
 
-    key, value = arg.split("=")
     key = key.lstrip("-").strip()
     value = value.strip()
 

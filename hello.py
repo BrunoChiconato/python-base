@@ -16,12 +16,32 @@ Execução:
     ou
     ./hello.py
 """
-__version__ = "0.1.4"
+__version__ = "0.1.5"
 __author__ = "Bruno Chiconato"
 __license__ = "Unlicense"
 
 import os
 import sys
+import logging
+from logging import handlers
+
+log_level = os.getenv("LOG_LEVEL", "WARNING")
+logger = logging.Logger("bruno", level=log_level)
+# ch = logging.StreamHandler()
+# ch.setLevel(log_level)
+fh = handlers.RotatingFileHandler(
+    "meulog.log", 
+    maxBytes=10 ** 6,
+    backupCount=10
+)
+fh.setLevel(log_level)
+fmt = logging.Formatter(
+    "%(asctime)s | %(name)s | %(levelname)s |"
+    " line:%(lineno)d | file:%(filename)s:\n%(message)s"
+)
+# ch.setFormatter(fmt)
+fh.setFormatter(fmt)
+logger.addHandler(fh)
 
 arguments = {
     "lang": None,
@@ -40,7 +60,7 @@ for arg in sys.argv[1:]:
     try:
         key, value = arg.split("=")
     except ValueError:
-        print("You need to use '=' after '--lang'")
+        logger.error("You need to use '=' after '--lang'")
         sys.exit(1)
 
     key = key.lstrip("-").strip()

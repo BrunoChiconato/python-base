@@ -14,11 +14,7 @@ aula_ingles = ["Erik", "Maia", "Joana", "Carlos", "Antonio"]
 aula_musica = ["Erik", "Carlos", "Maria"]
 aula_danca = ["Gustavo", "Sofia", "Joana", "Antonio"]
 
-dict_classes = {
-    "Ingles": aula_ingles,
-    "Musica": aula_musica,
-    "Danca": aula_danca
-}
+dict_classes = {"Ingles": aula_ingles, "Musica": aula_musica, "Danca": aula_danca}
 
 for classes, students in dict_classes.items():
     print(f"Alunos da atividade de {classes}\n")

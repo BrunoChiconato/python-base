@@ -12,8 +12,8 @@ $ notes.py read --tag=tech
 __author__ = "Bruno Chiconato"
 __version__ = "0.1.0"
 
-import sys
 import os
+import sys
 
 path = os.curdir
 filepath = os.path.join(path, "notes.txt")
@@ -32,7 +32,7 @@ if args[0] == "new":
     tag = input("tag: ").strip()
     text = input("text: ").strip()
     writer = f"{tag}:{text}"
-    
+
     with open(filepath, "a") as file:
         file.write(f"{writer}\n")
 
@@ -43,7 +43,7 @@ elif args[0] == "read":
         num_lines = 0
         for line in lines:
             num_lines += 1
-            nametag, text = line.replace("\n","").split(":")
+            nametag, text = line.replace("\n", "").split(":")
             if nametag == tag:
                 print(text)
             else:

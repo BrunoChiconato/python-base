@@ -1,6 +1,6 @@
 from dundie.core import load
 from tests.constants import PEOPLE_FILE
-import pytest
+import pytest # type: ignore
 
 
 @pytest.mark.unit

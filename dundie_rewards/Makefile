@@ -26,7 +26,8 @@ clean:            ## Clean unused files.
 	@rm -rf docs/_build
 
 test:
-	@.venv/bin/pytest -vv -s tests/
+	@.venv/bin/pytest -s
 
 watch:
-	@.venv/bin/ptw -- -vv -s tests/
+	#@.venv/bin/ptw -- -vv -s
+	ls **/*.py | entr pytest

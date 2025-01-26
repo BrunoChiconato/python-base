@@ -1,153 +1,137 @@
 # Python Base
 
-Esse curso é o primeiro passo para começar a sua carreira em desenvolvimento, 
-este treinamento é pensado para pessoas que nunca tiveram contato com programação
-antes, ou que já possuem algum conhecimento em alguma outra linguagem e precisam aprender Python e vamos desde a teoria base do que é programação, instalação e configuração do ambiente, escolha de um editor de código e criação do seu primeiro script até a criação de vários pequenos programas que vão abordar as principais
-funcionalidades do Python e vamos também criar um projeto completo do zero com as
-melhores práticas do mercado.
+This course is the first step in starting your career in development. It is designed for individuals who have never had any prior experience with programming or for those who already have some knowledge of other languages but need to learn Python.
 
-Duração estimada em horas: 64h
+We’ll begin with the foundational theory of programming, setting up and configuring your development environment, selecting a code editor, and writing your first script. The course progresses through creating various small programs covering Python’s key functionalities and culminates in developing a complete project from scratch, following the best practices in the industry.
 
-## Conteúdo
+**Estimated DUration**: 64 hours
 
-## Day 1 - Iniciando no mundo da programação
+## Course Outline
 
-Neste capítulo você terá uma introdução ao treinamento e aos conceitos básicos de programação
-e a linguagem Python, também aprenderá como instalar e preparar um ambiente para programar.
+## Day 1 - Getting Started with Programming
 
-01. Introdução
-00. Programação e Linguagens
-00. Como é organizada a plataforma Python
-00. Instalação e preparação do ambiente
-00. Repositório, git e seu primeiro script
-00. Variáveis de ambiente
-00. Tipos de instruções
-00. Organização de blocos de código
-00. Ambientes virtuais, instalação de pacotes e Ipython
+This chapter introduces the training program, the fundamentals of programming, and the Python language. You will also learn how to install and configure your development environment.
 
-Duração: 5h
+01. Introduction
+00. Programming and Programming Languages
+00. Python Platform Overview
+00. Installation and Environment Setup
+00. Repositories, Git, and Your First Script
+00. Environment Variables
+00. Types of Instructions
+00. Code Block Organization
+00. Virtual Environments, Package Installation, and IPython
 
-## Day 2 - Tipos e estruturas de dados
+**Duration**: 5 hours
 
-Neste capítulo você conhecerá os tipos e estruturas de dados do Python e execicios
-práticos para entender como manipulamos informações.
+## Day 2 - Data Types and Structures
 
-10. Protocolos e Tipos de dados primitivos
-00. Float, Bool, None
-00. Textos, Caracteres e Strings
-00. Formatação de texto
-00. Tipos de dados compostos e Tuplas
-00. Listas
-00. Exercicio com Listas, Tuplas, Loops e Condicionais
-00. Sets (conjuntos)
-00. Dicionários
-00. Exercicio: Refatorando nosso Hello World com dicionários
+Here, you will explore Python’s data types and structures, along with practical exercises to understand how to manipulate information.
 
-Duração: 7h
+10. Protocols and Primitive Data Types
+00. Float, Boolean, None
+00. Texts, Characters, and Strings
+00. Text Formatting
+00. Composite Data Types and Tuples
+00. Lists
+00. Exercises with Lists, Tuples, Loops, and Conditionals
+00. Sets (Collections)
+00. Dictionaries
+00. Exercise: Refactoring "Hello World" with Dictionaries
 
-## Day 3 - Input, Output, Processamento
+**Duration**: 7 hours
 
-Nesta parte do treinamento o foco é obter informações do usuário, aplicar algortimo para
-processar e persistir a informação em arquivos.
+## Day 3 - Input, Output, and Processing
 
-20. Stdin e Stdout
-00. Leitura de inputs do stdin e de argumentos do terminal
-00. Exercicio de criação de uma calculadora infix com input e argumentos
-00. Filesystem - Manipulação de arquivos e pastas
-00. Exercicio - Criando um bloco de anotações no terminal
-00. Tratamento de Erros LBYL e EAFP
-00. Logging - Formatando e gravando logs
-00. Algoritmos e lógica - Condicionais, Operadores compostos
-00. Condicionais ternárias e inline
-00. Repetições com for, while e comprehensions.
-00. Exercicio: Sistema de Reservas com iterators, textos, inputs e arquivos de texto.
+This section focuses on obtaining user input, processing algorithms, and persisting data in files.
 
-Duração: 10h
+20. Standard Input and Output (Stdin and Stdout)
+00. Reading Input from Stdin and Terminal Arguments
+00. Exercise: Building an Infix Calculator with Input and Arguments
+00. Filesystem - Handling Files and Folders
+00. Exercise: Creating a Terminal-Based Notepad
+00. Error Handling: LBYL and EAFP
+00. Logging - Formatting and Recording Logs
+00. Algorithms and Logic - Conditionals and Compound Operators
+00. Ternary and Inline Conditionals
+00. Loops with For, While, and Comprehensions
+00. Exercise: Reservation System Using Iterators, Text Inputs, and Text Files
 
-## Day 4 - Funções, Debugging e seu primeiro projeto.
+**Duration**: 10 hours
 
-Neste capítulo terá muito conteúdo sobre funções com exercicios práticos e em seguida
-aprenderá técnicas e ferramentas para depurar erros do programa e em seguida aprenderá
-a criar seu próprio projeto com as melhores práticas.
+## Day 4 - Day 4 - Functions, Debugging, and Your First Project
 
-31. Funções builtin uteis - sum, len, vars, min, max, filter, map
-00. Funções úteis da biblioteca padrão - random, pprint, itertools, functools, smtplib etc
-00. Definindo suas próprias Funções e aplicando fórmula matemática
-00. Anatomia detalhada de funções - assinatura, argumentos, retornos
-00. Escopos e namespaces e argumentos coringas
-00. Funções lambda
-00. Exercicio com lambda, recursão e introdução a programação funcional
-00. Debugging - Técnicas e ferramentas para encontrar erros.
-00. O Sistema de imports do Python
-00. Criando um repositótio para seu primeiro projeto e configurando o VSCode
-00. Estrutura de pastas, build e install do projeto
-00. Entry points com console scripts
-00. Gestão de dependencias e Makefile
+This chapter covers functions in depth with practical exercises. You will also learn debugging techniques and tools, followed by building your first project with industry best practices.
 
-Duração: 12h
+31. Useful Built-In Functions: `sum`, `len`, `vars`, `min`, `max`, `filter`, `map`
+00. Standard Library Functions: `random`, `pprint`, `itertools`, `functools`, `smtplib`, etc.
+00. Creating Your Own Functions with Mathematical Formulas
+00. Detailed Anatomy of Functions: Signatures, Arguments, Returns
+00. Scopes, Namespaces, and Flexible Arguments
+00. Lambda Functions
+00. Exercise: Using Lambda, Recursion, and Introduction to Functional Programming
+00. Debugging - Techniques and Tools to Identify Errors
+00. Python’s Import System
+00. Creating a Repository and Configuring VSCode for Your First Project
+00. Folder Structure, Building, and Installing Your Project
+00. Entry Points with Console Scripts
+00. Dependency Management and Makefiles
 
-## Day 5 - Qualidade de Software e de Código
+**Duration**: 12 hours
 
-Nesta parte focamos em testes, integração continua e qualidade do projeto incluindo
-testes unitários, testes de integração e adequação com code style além de uma introdução
-a documentação de software e empacotamento.
+## Day 5 - Software and Code Quality
 
-44. Introdução a testes + Doctest, Pytest e Decorators
-00. Diferençá entre unit e integration tests, configuração do Pytest e CI com Github Actions
-00. Boas práticas em testes e test reports
-00. Qualidade de código, linters e auto formatação
-00. Escolhendo boas ferramentas e libraries
-00. Introdução ao TDD
-00. Introdução a persistencia de dados e testes
-00. Documentação de projetos, Empacotamento e Distribuição no PyPI
+This section focuses on testing, continuous integration, and project quality. It includes unit tests, integration tests, coding standards, and an introduction to software documentation and packaging.
 
-Duração: 10h
+44. Introduction to Testing: Doctest, Pytest, and Decorators
+00. Unit vs. Integration Testing, Pytest Configuration, and CI with GitHub Actions
+00. Best Practices in Testing and Test Reports
+00. Code Quality: Linters and Auto-Formatting
+00. Choosing the Right Tools and Libraries
+00. Introduction to Test-Driven Development (TDD)
+00. Data Persistence and Testing
+00. Project Documentation, Packaging, and Distribution via PyPI
 
-## Day 6 - Orientação a Objetos
+**Duration**: 10 hours
 
-Uma das principais caracteristicas da linguagem Python é a aplicação da Orientação a Objetos
-seguindo um modelo que é um pouco diferente do tradicional e muito flexivel, neste capítulo
-falaremos sobre toda a base da orientação a objetos com Python.
+## Day 6 - Object-Oriented Programming
 
-52. Os paradigmas de programação
-00. Introdução a Orientação a Objetos
-00. Inicialização de instâncias
-00. Os 4 pilares da O.O: Abstração, Herança, Polimorfismo, Encapsulamento
-00. Encapsulamento com properties
-00. Python Data Model e Protocolos
-00. Python Moderno, Type Annotations e Dataclasses
-00. Dataclass abstrata, Enums, field e super()
+Python’s object-oriented programming (OOP) model is flexible and slightly different from traditional models. This chapter covers all foundational OOP concepts in Python.
+
+52. Programming Paradigms Overview
+00. Introduction to Object-Oriented Programming
+00. Instance Initialization
+00. The Four Pillars of OOP: Abstraction, Inheritance, Polymorphism, Encapsulation
+00. Encapsulation Using Properties
+00. Python Data Model and Protocols
+00. Modern Python: Type Annotations and Dataclasses
+00. Abstract Dataclasses, Enums, Fields, and `super()`
 00. Structural Pattern Matching
 
-Duração: 7h
+**Duration**: 7 hours
 
-## Day 7 - Consumindo e armazenando dados.
+## Day 7 - Working with Data
 
-Na maior parte dos programas sempre teremos que carregar e armazenar dados e para isso
-precisamos aprender a usar bancos de dados SQL e consultar APIs.
+Most programs involve loading and storing data. This section covers SQL databases and API consumption.
 
-61. Modelangem de dados com dataclasses e Pydantic
-00. Prova de conceito de um ORM
-00. Introdução a SQL e SQLite
+61. Data Modeling with Dataclasses and Pydantic
+00. Proof of Concept for an ORM
+00. Introduction to SQL and SQLite
 00. SQL Alchemy
 00. SQL Model
-00. Convertendo software legado para SQL
-00. Database Migrations e Consumindo API Rest
-00. Finalização do Projeto e desafios
+00. Migrating Legacy Software to SQL
+00. Database Migrations and Consuming REST APIs
+00. Finalizing the Project and Challenges
 
-Duração: 8h
+**Duration**: 8 hours
 
-## Day 8 - Demonstrações
+## Day 8 - Demonstrations
+The final part of the training demonstrates key tools and frameworks in the industry. This hands-on session builds on the course project, adding graphical user interfaces (GUIs), 2D elements, terminal interfaces (TUIs), web pages, and REST APIs.
 
-Nesta última parte do treinamento a intenção é fazer uma demonstração bastante breve a
-respeito das ferramentas e frameworks principais do mercado, o formato não será de aula
-mas sim de mão na massa, seguindo o mesmo projeto desenvolvido no treinamento vamos
-adicionar interfaces Gráfica (GUI), 2D (Pygame), terminal (TUI), web (html) e API (REST).
+69. Desktop GUI Demonstration with `Tkinter` and `PySimpleGUI`
+00. 2D Game Interface Demonstration with `Pygame`
+00. Terminal GUI Demonstration with `Textual`
+00. Web Interface Demonstration with `Flask`
+00. REST API Demonstration with `FastAPI`
 
-69. Interface Gráfica para Desktop - Demonstração com Tk e Pysimplegui
-00. Interface 2D para games - Demonstração com Pygame
-00. Interface Gráfica para Terminal - Demonstração com Textual (game)
-00. Interface web com html - Demonstração com Flask
-00. Interface API com REST/Json - Demonstração com FastAPI
-
-Duração: 5h
+**Duration**: 5 hours

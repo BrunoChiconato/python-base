@@ -4,7 +4,7 @@ This course is the first step in starting your career in development. It is desi
 
 We’ll begin with the foundational theory of programming, setting up and configuring your development environment, selecting a code editor, and writing your first script. The course progresses through creating various small programs covering Python’s key functionalities and culminates in developing a complete project from scratch, following the best practices in the industry.
 
-**Estimated DUration**: 64 hours
+**Estimated Duration**: 64 hours
 
 ## Course Outline
 
